@@ -1,0 +1,43 @@
+{
+  "name": "relcms",
+  "version": "1.0.0-alpha-v1",
+  "description": "RelCMS",
+  "main": "app.js",
+  "directories": {
+    "test": "tests"
+  },
+  "scripts": {
+    "dev": "cross-env NODE_ENV=development node_modules/webpack/bin/webpack.js --progress --hide-modules --config=node_modules/laravel-mix/setup/webpack.config.js",
+    "production": "cross-env NODE_ENV=production node_modules/webpack/bin/webpack.js --progress --hide-modules --config=node_modules/laravel-mix/setup/webpack.config.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Yshmeel/RelCMS.git"
+  },
+  "keywords": [
+    "relcms",
+    "yshmeel",
+    "github",
+    "yshmeel.github.io",
+    "vue",
+    "php",
+    "js",
+    "javascript"
+  ],
+  "author": "Yshmeel",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Yshmeel/RelCMS/issues"
+  },
+  "homepage": "https://github.com/Yshmeel/RelCMS#readme",
+  "devDependencies": {
+    "cross-env": "^3.2.3",
+    "laravel-mix": "2.1",
+    "webpack": "3.11"
+  },
+  "dependencies": {
+    "axios": "^0.19.2",
+    "vue": "^2.6.11",
+    "vue-router": "^3.1.5"
+  }
+}
